@@ -1,0 +1,191 @@
+body{
+    background-color: rgb(171, 130, 209);
+}
+
+.start-button-feald{
+    margin: auto;
+    margin-top: 30px;
+    height: 30px;
+    width: 20vw;
+    border-radius: 15px;
+    border: 10px solid rgb(153, 226, 153);
+    background-color: burlywood;
+    font-size: 20px;
+    align-items: center;
+}
+.start-button-feald:hover{
+    background-color: rgb(230, 217, 200);
+}
+
+.start-button{
+    all: unset;
+    cursor: pointer;
+}
+
+.restart-button-feald{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+    margin-left: auto;
+    margin-top: 30px;
+    height: 40px;
+    width: 10vw;
+    border-radius: 7.5px;
+    border: 5px solid rgb(235, 49, 42);
+    background-color: burlywood;
+    font-size: 20px;
+    align-items: center;
+}
+
+.restart-button-feald:hover{
+    background-color: rgb(230, 217, 200);
+}
+
+.restart-button{
+    position: absolute;
+    margin: auto;
+    all: unset;
+    cursor: pointer;
+}
+
+.word-input-feald{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    width: 90%;
+    height: 100px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(107, 107, 219);
+}
+
+.word-input{
+    border: none;
+/*    margin: auto;
+*/    width: 90%;
+    font-size: 30px;
+    margin: 20px;
+}
+
+.word-input:focus{
+    outline: none;
+    box-shadow: 0px 0px 0px 10000px rgba(0, 0, 0, 0.5);   
+}
+
+
+.word-submit{
+    height: 50px;
+    width: 50px;
+    margin: 12px;
+    margin-top: 25px;
+    background-color: rgb(153, 226, 153);
+    border: 2px solid black;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.word-submit:hover{
+    cursor: pointer;
+}
+
+.bad-word-warning{
+    margin-top: 20px;
+    position: relative;
+    width: 100%;
+    background-color: red;
+    color:rgb(230, 217, 200);
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.input-word-container{
+    display: flex;
+    flex-flow: column wrap;
+    width: 50%;
+    margin: auto;
+    background-color: rgb(177, 83, 240);
+    margin-top: 100px;
+}
+
+.show-word{
+    position: absolute;
+    all: unset;
+    cursor: pointer;
+    margin: auto;
+    margin-right: 20px;
+}
+
+.letter-container{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    margin: auto;
+    width: auto;
+    margin-top: 50px;
+}
+
+.letter-submit-feald{
+    width: 100%;
+}
+
+.letter-submit{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 70px;
+    width: 70px;
+    background-color: rgb(153, 226, 153);
+    border: 2px solid black;
+    border-radius: 70px;
+    text-align: center;
+}
+
+.letter-submit:hover{
+    cursor: pointer;
+}
+
+.letter-input-feald{
+    width: 100%;
+    height: 100px;
+}
+
+.letter-input{
+    height: 100%;
+    font-size: 80px;
+    width: 40px;
+}
+
+.letter-input:focus{
+    box-shadow: 0px 0px 0px 10000px rgba(0, 0, 0, 0.5);
+}
+
+.single-letter{
+    width: auto;
+    margin: 10px;
+    height: 100px;
+    font-size: 100px;
+    border-bottom: solid 5px black; 
+    flex: 1;
+}
+
+.lives-container{
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    align-items: stretch;
+    margin: 20px;
+}
+
+.single-life-feald{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.single-life{
+    height: 100%;
+}
